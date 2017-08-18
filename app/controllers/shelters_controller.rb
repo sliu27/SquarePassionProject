@@ -9,7 +9,14 @@ class SheltersController < ApplicationController
   end
 
   def index
-    @shelters = Shelter.all
+    if params[:commit]
+      puts "params harr"
+      puts params[:search]
+      @shelters = Shelter.all.select { |shelter| shelter.zipcode == params[:zipcode] }
+    else
+      @shelters = Shelter.all
+    end
+    
   end
 
   # GET /shelters/1

@@ -12,7 +12,6 @@ Rails.application.routes.draw do
 	  get 'login', to: 'devise/sessions#new'
 	  get 'FAQ' => 'pages#FAQ'
 	end
-
   root 'pages#home'
 end
   
