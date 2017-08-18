@@ -15,11 +15,11 @@ shelters = Shelter.create([{ name: 'Odyssey Villas Intact Families', description
 	{name: 'The Shepherds Inn Downtown Atlanta Homeless Shelter', description: "Every day, we serve up to 450 men with the goal of shepherding them, one at a time, into a new life of independent living.", 
 		requirements: "Men, 18 +", zipcode: "30313", address:"165 Ivan Allen Blvd NW, Atlanta, GA 30313"},
 	{name: 'Atlanta Union Mission', description: "Atlanta Mission transforms, through Christ, the lives of those facing homelessness. We are a community united to end homelessness...one friend at a time.", 
-		requirements: "All Genders, 18 +", zipcode: "30313", address:"165 Alexander Street NW, Atlanta, GA 30301"},
+		requirements: "All Genders, 18 +", zipcode: "30301", address:"165 Alexander Street NW, Atlanta, GA 30301"},
 	{name: 'Fuqua Hall Transitional Housing', description: "Fuqua Hall offers affordable, transitional housing for men who have completed Atlanta Mission Shelter or Recovery Programs.", 
 		requirements: "Men, 18 +", zipcode: "30313", address:"144 Mills Street, Atlanta, GA 30313"},
 	{name: 'Gateway Center Atlanta', description: "Atlanta Mission transforms, through Christ, the lives of those facing homelessness. We are a community united to end homelessness...one friend at a time.", 
-		requirements: "Men, 18 +", zipcode: "30313", address:"275 Pryor St., SW, Atlanta, GA 30303"},
+		requirements: "Men, 18 +", zipcode: "30303", address:"275 Pryor St., SW, Atlanta, GA 30303"},
 	
 	])
 
