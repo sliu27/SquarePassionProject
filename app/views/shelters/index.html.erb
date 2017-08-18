@@ -15,10 +15,7 @@
         return confirm("Application Submitted!");
       }
   });
-    // function alert()
-    // {
-    //   return confirm("Please click on OK to continue.");
-    // }
+
   </script>
 <h1 class="header">HOMES NEAR YOU</h1>
 <div class="searchbody resultsbody">
@@ -37,12 +34,13 @@
   <tbody>
     <% @shelters.each do |shelter| %>
       <tr>
-        <td ><%= shelter.name %></td>
+        <td >Odyssey Villas Intact Families</td>
         <td ><%= shelter.description %></td>
         <td ><%= shelter.address %></td>
         <td ><%= shelter.requirements %></td>
         <td name=shelter.name id ="app"><button>Apply</button></td>
       </tr>
+
     <% end %>
   </tbody>
 </table>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: MyString
+  status: MyString
+  shelter: MyString
+  address: MyString
+
+two:
+  user: MyString
+  status: MyString
+  shelter: MyString
+  address: MyString

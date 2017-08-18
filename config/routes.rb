@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  resources :applications
 	# For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   #get "/shelters?(.:format)" => "shelters#show"
   get '/shelters/all', to: 'shelters#index'
