@@ -1,11 +1,18 @@
 <html>
 
-<center><img src="/logo.png" width="50%"></center>
-<h1>Welcome!</h1>
+<div class="realbody">
+<center><img src="/logo.png" width="10%"></center>
+<h1>Welcome to Haven!</h1>
 	<body>
-		<%= button_to "Apply for a Shelter", apply_url, method: :get %>
+	<br><br>
+	<center>
+		<%= button_to "Apply for a Shelter", apply_url, method: :get, class: "btn btn-primary one" %>
 		<br>
-		<%= button_to "Check Application Status", status_url, method: :get %>
+		<%= button_to "Check Application Status", status_url, method: :get, class: "btn btn-primary one" %>
 		<br>
+	</center>
+	<br><br>
+	<center><a href="/FAQ">FAQs</a></center>
+	</div>
 	</body>
 </html>
