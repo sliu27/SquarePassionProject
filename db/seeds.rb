@@ -18,15 +18,15 @@ shelters = Shelter.create([{ name: 'Odyssey Villas Intact Families', description
 		requirements: "All Genders, 18 +", zipcode: "30313", address:"165 Alexander Street NW, Atlanta, GA 30301"},
 	{name: 'Fuqua Hall Transitional Housing', description: "Fuqua Hall offers affordable, transitional housing for men who have completed Atlanta Mission Shelter or Recovery Programs.", 
 		requirements: "Men, 18 +", zipcode: "30313", address:"144 Mills Street, Atlanta, GA 30313"},
-	{name: 'Atlanta Union Mission', description: "Atlanta Mission transforms, through Christ, the lives of those facing homelessness. We are a community united to end homelessness...one friend at a time.", 
+	{name: 'Gateway Center Atlanta', description: "Atlanta Mission transforms, through Christ, the lives of those facing homelessness. We are a community united to end homelessness...one friend at a time.", 
 		requirements: "Men, 18 +", zipcode: "30313", address:"275 Pryor St., SW, Atlanta, GA 30303"},
 	
 	])
 
 
-var shelterNames: [String] = ["Odyssey Villas Intact Families", "The Salvation Army Metro Atlanta Red Shield Service", 
-	"Serenity House of Atlanta", "The Shepherd's Inn Downtown Atlanta Homeless Shelter", "Atlanta Union Mission", "Fuqua Hall Transitional Housing", 
-	"Gateway Center Atlanta"]
-   var shelterAddress: [String] = ["625 Spencer Street NW, Atlanta, GA 30318", "469 Marietta Street, Atlanta, GA 30313", "Atlanta, GA, 
-   	30314", "165 Ivan Allen Blvd NW, Atlanta, GA 30313", "165 Alexander Street NW, Atlanta, GA 30301", "144 Mills Street, Atlanta, GA 30313", 
-   	"275 Pryor St., SW, Atlanta, GA 30303"]
+# var shelterNames: [String] = ["Odyssey Villas Intact Families", "The Salvation Army Metro Atlanta Red Shield Service", 
+# 	"Serenity House of Atlanta", "The Shepherd's Inn Downtown Atlanta Homeless Shelter", "Atlanta Union Mission", "Fuqua Hall Transitional Housing", 
+# 	"Gateway Center Atlanta"]
+#    var shelterAddress: [String] = ["625 Spencer Street NW, Atlanta, GA 30318", "469 Marietta Street, Atlanta, GA 30313", "Atlanta, GA, 
+#    	30314", "165 Ivan Allen Blvd NW, Atlanta, GA 30313", "165 Alexander Street NW, Atlanta, GA 30301", "144 Mills Street, Atlanta, GA 30313", 
+#    	"275 Pryor St., SW, Atlanta, GA 30303"]
